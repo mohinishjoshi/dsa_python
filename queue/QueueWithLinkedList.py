@@ -27,17 +27,18 @@ class QueueWithLinkedList:
         return self.queue.head.value
 
 
-queue = QueueWithLinkedList()
-print("Queue", queue)
-queue.enqueue(1)
-print("Queue", queue)
-queue.enqueue(2)
-print("Queue", queue)
-queue.enqueue(3)
-print("Queue", queue)
-queue.dequeue()
-print("Queue", queue)
-queue.dequeue()
-print("Queue", queue)
-print("Peek", queue.peek())
+# Uncomment to Run
+# queue = QueueWithLinkedList()
+# print("Queue", queue)
+# queue.enqueue(1)
+# print("Queue", queue)
+# queue.enqueue(2)
+# print("Queue", queue)
+# queue.enqueue(3)
+# print("Queue", queue)
+# queue.dequeue()
+# print("Queue", queue)
+# queue.dequeue()
+# print("Queue", queue)
+# print("Peek", queue.peek())
 
