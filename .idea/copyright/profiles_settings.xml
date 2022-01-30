@@ -1,0 +1,17 @@
+<component name="CopyrightManager">
+  <settings default="Mohinish Personal">
+    <LanguageOptions name="Python">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="box" value="true" />
+    </LanguageOptions>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="block" value="false" />
+      <option name="separateBefore" value="true" />
+      <option name="separateAfter" value="true" />
+      <option name="box" value="true" />
+    </LanguageOptions>
+  </settings>
+</component>

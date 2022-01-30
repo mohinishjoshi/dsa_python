@@ -62,7 +62,7 @@ class LinkedList:
             self.length += 1
             return
 
-        assert self.length > location >= -1, "Location should be between -1(end) and length of List"
+        assert self.length >= location >= -1, "Location should be between -1(end) and length of List"
 
         if location == 0:
             self.push(value)
@@ -159,20 +159,20 @@ class LinkedList:
 
 
 
-lst = LinkedList([1, 2, 3, 4])
-lst.push(5)
-lst.pop()
-lst.append(5)
-lst.insert(50, -1)
-lst.insert(60, 0)
-lst.insert(70, 3)
-lst.insert(80, 7)
-print("80", lst.indexOf(80))
-print("60", lst.indexOf(60))
-print("1", lst.indexOf(1))
-print(lst.delete(-1))
-print(lst.delete(0))
-print(lst.delete(3))
-lst.clear()
-print(lst)
+# lst = LinkedList([1, 2, 3, 4])
+# lst.push(5)
+# lst.pop()
+# lst.append(5)
+# lst.insert(50, -1)
+# lst.insert(60, 0)
+# lst.insert(70, 3)
+# lst.insert(80, 7)
+# print("80", lst.indexOf(80))
+# print("60", lst.indexOf(60))
+# print("1", lst.indexOf(1))
+# print(lst.delete(-1))
+# print(lst.delete(0))
+# print(lst.delete(3))
+# lst.clear()
+# print(lst)
 
