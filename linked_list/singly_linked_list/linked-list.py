@@ -1,7 +1,4 @@
-from linked_list.node import Node
-import logging
-import sys
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+from linked_list.Node import Node
 
 
 class LinkedList:
@@ -152,31 +149,30 @@ class LinkedList:
         print('Deleted', val, "\n\n")
         return val
 
+    def clear(self):
+        print('Delete/Clear Linked List')
+        self.head = None
+        self.tail = None
+        self.length = 0
+        print('Delete/Clear Linked List completed', self)
+
+
 
 
 lst = LinkedList([1, 2, 3, 4])
-# print(lst)
 lst.push(5)
-# print(lst)
 lst.pop()
-# print(lst)
 lst.append(5)
-# print(lst)
 lst.insert(50, -1)
-# print(lst)
 lst.insert(60, 0)
-# print(lst)
 lst.insert(70, 3)
-# print(lst)
 lst.insert(80, 7)
-# print(lst)
 print("80", lst.indexOf(80))
 print("60", lst.indexOf(60))
 print("1", lst.indexOf(1))
-# print(lst)
 print(lst.delete(-1))
-# print(lst)
 print(lst.delete(0))
-# print(lst)
 print(lst.delete(3))
-# print(lst)
+lst.clear()
+print(lst)
+

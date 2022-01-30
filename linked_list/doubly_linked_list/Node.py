@@ -1,7 +1,8 @@
 class Node:
     def __init__(self, value):
-        self.value = value
+        self.prev = None
         self.next = None
+        self.value = value
 
     def __str__(self):
-        return f"Node - value: {self.value}"
+        return f"Node - {self.value}"
